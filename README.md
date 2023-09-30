@@ -17,7 +17,8 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/shazaib491/LearnerLog.git
+   
    cd project-name
    ```
 
@@ -29,11 +30,7 @@ Before you begin, ensure you have met the following requirements:
 
 3. **Setup Environment Variables**
 
-   Copy the `.env.example` file to a new file named `.env`:
-
-   ```bash
-   cp .env.example .env
-   ```
+   Copy the `.env` file to a new file named `.env`:
 
    Then, open `.env` and set the appropriate values for your environment.
 
@@ -43,6 +40,9 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    mongod
+   ```
+   ```
+   In Latest version it is not required 
    ```
 
 ## Running the Project
@@ -85,9 +85,4 @@ This will start the Node.js server on the specified port in your `.env` file (de
 ## Contributing
 
 If you want to contribute to this project, please fork the repository, make your changes, and create a pull request. Feedback is always welcome!
-
-## License
-
-This project is open-sourced under the MIT license.
-
 ---
